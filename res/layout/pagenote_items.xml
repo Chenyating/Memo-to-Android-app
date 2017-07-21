@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="7dp">
+
+    <TableLayout
+        android:id="@+id/one"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:collapseColumns="3"
+        android:stretchColumns="2" 
+        android:padding="3dp">
+      <TableRow >  
+        <TextView android:id="@+id/tv_item_content"
+            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:text="嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨"
+            android:textSize="19dp"/>
+        <TextView android:id="@+id/tv_item_date"
+            android:layout_height="wrap_content"
+            android:text="2016-10-10"/>
+        <ImageView 
+            android:id="@+id/tv_item_pic"
+            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:background="@drawable/jiantou"/>
+        </TableRow> 
+        
+    </TableLayout>
+
+</LinearLayout>

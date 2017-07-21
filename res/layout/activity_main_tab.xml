@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/biaoti"
+>
+    
+
+    <LinearLayout
+        android:id="@+id/id_switch_tab_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:baselineAligned="false"
+        >
+
+        <LinearLayout
+            android:id="@+id/id_tab_dinary_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/guide_round_selector"
+  android:clickable="true"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:saveEnabled="false" >
+
+            <TextView
+                android:id="@+id/id_dinary_tv"
+      android:layout_width="90dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/white_background"
+                android:text="日记"
+                android:layout_marginBottom="10dp"
+                android:textColor="#22ac38"
+       android:layout_marginLeft="80dp"
+                android:textSize="20dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_note_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/guide_round_selector"
+            android:clickable="true"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:saveEnabled="false" >
+
+            <TextView
+                android:id="@+id/id_note_tv"
+                android:layout_width="90dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="-10dp"
+                android:text="事务"
+                android:textColor="#FFFFFF"
+                android:textSize="20dip" 
+                android:layout_marginRight="80dp"
+                android:background="@drawable/blue_background"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/id_tab_line_iv"
+        android:layout_width="200dp"
+        android:layout_height="3dp"
+        android:contentDescription="tab"
+        android:background="@drawable/tab_selected_pressed_holo_9" >
+    </ImageView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" />
+
+</LinearLayout>

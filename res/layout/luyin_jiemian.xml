@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn_luyin"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_login"
+                android:textColor="#FFFFFF"
+                android:text="开始录音"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_luyinjieshu"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left" android:textColor="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn_login"
+                android:text="录音完成"
+                android:textSize="15dp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

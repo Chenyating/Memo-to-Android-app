@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="problem">
+        <item >我的姓名是？</item>
+        <item >我的家乡是？</item>
+        <item >我最好的朋友是？</item>
+        <item >我的父亲的名字是？</item>
+        <item >我的母亲的名字是？</item>
+        <item >我的男女朋友名字是？</item>
+    </string-array>
+</resources>

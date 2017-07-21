@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/submit"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="完成"/>
+    <item
+        android:id="@+id/zhiding"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="置顶"/>
+    <item
+        android:id="@+id/fasong"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="发送桌面"/>
+
+</menu>

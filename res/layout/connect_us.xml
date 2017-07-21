@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lianxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="联系我们"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/neirong"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_gravity="center"
+        android:background="@drawable/etbg_login_pswmain"
+        android:gravity="top|left"
+        android:hint="请输入您的宝贵意见"
+        android:inputType="textMultiLine"
+        android:minLines="8"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/tijiao"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_login"
+        android:text="提交"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/etbg_login_pswmain"
+        android:gravity="center_vertical"
+        android:hint="如果忘记问题，可通过手机找回"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:paddingBottom="2dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="2dp"/>
+
+    <Button
+        android:id="@+id/callus"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login"
+        android:text="短信获取密码"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

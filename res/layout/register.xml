@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_login"
+        android:text="注册"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/sp_register_problem"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/etbg_login_pswmain"
+        android:entries="@array/problem" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_setpassword_two"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="10dp"
+        android:text="两次输入的密码请保持一致"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_setpassword_two"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/etbg_login_pswmain"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="请再次输入您的密码"
+        android:inputType="textPassword"
+        android:textColor="#434445" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/et_setpassword_one"
+        android:layout_marginTop="10dp"
+        android:text="请输入的密码长度不小于6位"        android:layout_centerHorizontal="true"
+
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_setpassword_one"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tishikuang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/etbg_login_pswmain"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="请设置您的密码"
+        android:inputType="textPassword"
+        android:textColor="#434445" />
+
+    <TextView
+        android:id="@+id/xuanze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_register_problem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="请选择一个密保问题"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tishikuang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_register_answer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        android:text="请勿忘记填写的答案，忘记无法找回"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_register_answer"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/et_setpassword_one"
+        android:layout_below="@+id/xuanze"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/etbg_login_pswmain"
+        android:ems="10"
+
+        android:hint="请输入问题的答案"     android:gravity="center_vertical|center_horizontal"
+        android:textColor="#434445" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
